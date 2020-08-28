@@ -40,7 +40,7 @@ class FetchAIHelper(CosmosHelper):
 class FetchAICrypto(CosmosCrypto):
     """Class wrapping the Entity Generation from Fetch.AI ledger."""
 
-    identifier = _FETCHAI
+    identifier = _FETCH
     helper = FetchAIHelper
 
 
